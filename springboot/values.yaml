@@ -1,0 +1,13 @@
+
+appName: springboot-demo
+
+namespace: springboot-demo
+
+host: apps.ocp4.piotr-owczarc.com
+
+replicaCount: 2
+
+image:
+  repository: image-registry.openshift-image-registry.svc:5000/springboot-demo/springboot-demo
+  tag: 0.0.1
+
