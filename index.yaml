@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  cicd:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-25T17:04:45.061655+02:00"
+    description: A Helm chart for pushing a Java image for a Spring Boot app to the
+      internal OpenShift repository.
+    digest: 60796326c546a9d7e79735f3a47c02d23e252172de3c8db05d92a7ef63fcd999
+    name: cicd
+    type: application
+    urls:
+    - cicd-0.1.0.tgz
+    version: 0.1.0
+  springboot:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-04-25T17:04:45.062191+02:00"
+    description: A Helm Chart for deploying resources for a Spring Boot application.
+    digest: 1b0831b1e602d625706782851a63689c885d341c5703d235684e9b08e2ef7f90
+    name: springboot
+    type: application
+    urls:
+    - springboot-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-25T17:04:45.061091+02:00"
