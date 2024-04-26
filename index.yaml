@@ -3,10 +3,21 @@ entries:
   cicd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-26T12:55:37.436272+02:00"
+    created: "2024-04-26T13:04:07.581525+02:00"
     description: A Helm chart for pushing a Java image for a Spring Boot app to the
       internal OpenShift repository.
-    digest: 5e526a2d3b8d331fee886194ae0824c52a95373d202919e22ae6ba3ebc1d2d54
+    digest: c63c2566fd2fb663f836a26d6a07007f62651e0fd8e84085ad8acefde19ccd7a
+    name: cicd
+    type: application
+    urls:
+    - cicd-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-26T13:04:07.581309+02:00"
+    description: A Helm chart for pushing a Java image for a Spring Boot app to the
+      internal OpenShift repository.
+    digest: 95b6ce49a663d24863c9387888b8b4905d94494e620e6f060e6745bfe99fa900
     name: cicd
     type: application
     urls:
@@ -14,7 +25,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-26T12:55:37.435917+02:00"
+    created: "2024-04-26T13:04:07.580968+02:00"
     description: A Helm chart for pushing a Java image for a Spring Boot app to the
       internal OpenShift repository.
     digest: 8c03c94a0dcedba1693097a084dc5f01b6a2b6c0fbe38f431c6ac28ec2798190
@@ -25,7 +36,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-26T12:55:37.435527+02:00"
+    created: "2024-04-26T13:04:07.580568+02:00"
     description: A Helm chart for pushing a Java image for a Spring Boot app to the
       internal OpenShift repository.
     digest: 40e1828404573ccd920d1486da1041a6f51c6ac22760073f0e3786a711d726f7
@@ -37,7 +48,7 @@ entries:
   springboot:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-04-26T12:55:37.437269+02:00"
+    created: "2024-04-26T13:04:07.582528+02:00"
     description: A Helm Chart for deploying resources for a Spring Boot application.
     digest: 90844096f5c654a6f1215bf94ea225746007379910b517b81406c29948b1395f
     name: springboot
@@ -47,7 +58,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-04-26T12:55:37.437001+02:00"
+    created: "2024-04-26T13:04:07.582281+02:00"
     description: A Helm Chart for deploying resources for a Spring Boot application.
     digest: a40b125ecb154757bbc3a36a9a77959eb52507f578b13af3477eac3ed0e53ad6
     name: springboot
@@ -57,7 +68,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-04-26T12:55:37.436753+02:00"
+    created: "2024-04-26T13:04:07.582028+02:00"
     description: A Helm Chart for deploying resources for a Spring Boot application.
     digest: ecd2426f1436a46ca840826c9f4f1bb54cfd135b6d2a1c952ba351f5970b368f
     name: springboot
@@ -67,7 +78,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-04-26T12:55:37.436494+02:00"
+    created: "2024-04-26T13:04:07.58179+02:00"
     description: A Helm Chart for deploying resources for a Spring Boot application.
     digest: 3806e937357ce079d39d7c0eaf7ec0e6dca648bab22235bd92c5e76153973d3f
     name: springboot
@@ -75,4 +86,4 @@ entries:
     urls:
     - springboot-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-26T12:55:37.434717+02:00"
+generated: "2024-04-26T13:04:07.579841+02:00"

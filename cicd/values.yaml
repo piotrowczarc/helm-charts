@@ -1,10 +1,10 @@
-appName: springboot-demo
-namespace: springboot-demo
+appName: example
+namespace: example
 
 git:
-  appSrcRepository: https://github.com/thepierrre/demo-springboot-app
+  appSrcRepository: example
 
 image:
-  registry: default-route-openshift-image-registry.apps.ocp4.piotr-owczarc.com
+  registry: example
 
-host: apps.ocp4.piotr-owczarc.com
+host: example
