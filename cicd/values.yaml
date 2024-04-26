@@ -1,8 +1,8 @@
-namespace: example
+namespace: springboot-demo
 
 git:
-  repository: example
+  repository: https://github.com/thepierrre/demo-springboot-app
 
 image:
-  repository: example
-  tag: example
+  repository: image-registry.openshift-image-registry.svc:5000/springboot-demo/springboot-demo-service
+  tag: latest
