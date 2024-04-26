@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.appName }}
   namespace: {{ .Values.namespace }}
 spec:
-  host: {{ .Values.appName }}.{{ .Values.host }}
+  host: {{ .Values.appName }}.apps.ocp4.piotr-owczarc.com
   to:
     kind: Service
     name: {{ .Values.appName }}

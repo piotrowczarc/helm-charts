@@ -3,7 +3,7 @@ entries:
   cicd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-26T10:13:17.746829+02:00"
+    created: "2024-04-26T10:43:49.565308+02:00"
     description: A Helm chart for pushing a Java image for a Spring Boot app to the
       internal OpenShift repository.
     digest: 60796326c546a9d7e79735f3a47c02d23e252172de3c8db05d92a7ef63fcd999
@@ -15,9 +15,19 @@ entries:
   springboot:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-04-26T10:13:17.747197+02:00"
+    created: "2024-04-26T10:43:49.56619+02:00"
     description: A Helm Chart for deploying resources for a Spring Boot application.
-    digest: f1f53509b3e11da9464c30418db8c1dc15ba086dff544453137848160af59648
+    digest: 90844096f5c654a6f1215bf94ea225746007379910b517b81406c29948b1395f
+    name: springboot
+    type: application
+    urls:
+    - springboot-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-04-26T10:43:49.56607+02:00"
+    description: A Helm Chart for deploying resources for a Spring Boot application.
+    digest: a40b125ecb154757bbc3a36a9a77959eb52507f578b13af3477eac3ed0e53ad6
     name: springboot
     type: application
     urls:
@@ -25,7 +35,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-04-26T10:13:17.747079+02:00"
+    created: "2024-04-26T10:43:49.565843+02:00"
     description: A Helm Chart for deploying resources for a Spring Boot application.
     digest: ecd2426f1436a46ca840826c9f4f1bb54cfd135b6d2a1c952ba351f5970b368f
     name: springboot
@@ -35,7 +45,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-04-26T10:13:17.746956+02:00"
+    created: "2024-04-26T10:43:49.565626+02:00"
     description: A Helm Chart for deploying resources for a Spring Boot application.
     digest: 3806e937357ce079d39d7c0eaf7ec0e6dca648bab22235bd92c5e76153973d3f
     name: springboot
@@ -43,4 +53,4 @@ entries:
     urls:
     - springboot-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-26T10:13:17.746578+02:00"
+generated: "2024-04-26T10:43:49.562937+02:00"
