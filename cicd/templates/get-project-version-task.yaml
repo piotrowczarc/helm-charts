@@ -3,6 +3,8 @@ kind: Task
 metadata:
   name: get-project-version
   namespace: {{ .Values.namespace }}
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
 spec:
   workspaces:
     - name: source
@@ -26,3 +28,5 @@ spec:
         #!/usr/bin/env bash
         VERSION=$(/usr/bin/mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
         echo -n $VERSION | tee $(results.version.path)
+      securityContext:
+        privileged: true

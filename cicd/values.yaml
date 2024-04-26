@@ -1,8 +1,10 @@
+appName: springboot-demo
 namespace: springboot-demo
 
 git:
-  repository: https://github.com/thepierrre/demo-springboot-app
+  appSrcRepository: https://github.com/thepierrre/demo-springboot-app
 
 image:
-  repository: image-registry.openshift-image-registry.svc:5000/springboot-demo/springboot-demo-service
-  tag: latest
+  registry: default-route-openshift-image-registry.apps.ocp4.piotr-owczarc.com
+
+host: apps.ocp4.piotr-owczarc.com

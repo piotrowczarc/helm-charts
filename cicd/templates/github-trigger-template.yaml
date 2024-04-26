@@ -3,6 +3,8 @@ kind: TriggerTemplate
 metadata:
   name: github-trigger-template
   namespace: {{ .Values.namespace }}
+  annotations:
+    argocd.argoproj.io/sync-wave: "5"
 spec:
   params:
     - name: git-revision
@@ -17,7 +19,7 @@ spec:
         generateName: sample-java-pipeline-run-
       spec:
         pipelineRef:
-          name: sample-java-pipeline
+          name: java-pipeline
         serviceAccountName: pipeline
         workspaces:
           - name: source-dir
